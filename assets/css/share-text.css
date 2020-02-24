@@ -1,0 +1,102 @@
+[class^=share-] {
+    display: inline-block;
+    width: 180px;
+    height: 36px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    color: #828282;
+    text-align: center;
+    font-size: 17px;
+    border: double 3px #828282;
+    border-radius: 40px;
+    transition: all .2s ease-out;
+}
+[class^=share-]:last-child {
+    margin-right: 0;
+}
+[class^=share-]:hover {
+    cursor: pointer;
+    color: #fff;
+}
+[class^=share-] svg {
+    width: 21px;
+    height: 21px;
+    margin: 6px 0;
+}
+.share-fb:hover {
+    background: #3b5998;
+}
+.share-in:hover {
+    background: #0e76a8;
+}
+.share-vk:hover {
+    background: #4a76a8;
+}
+.share-tg:hover {
+    background: #249bd7;
+}
+.share-ok:hover {
+    background: #f93;
+}
+.share-tw:hover {
+    background: #00acee;
+}
+.share-vb:hover {
+    background: #7b519d;
+}
+.share-wa:hover {
+    background: #50b154;
+}
+
+[class^=share-]:after {
+    margin-left: 0px;
+}
+.share-fb:after {
+    content: 'Facebook';
+}
+.share-in:after {
+    content: 'LinkedIn';
+}
+.share-vk:after {
+    content: 'VK';
+}
+.share-tg:after {
+    content: 'Telegram';
+}
+.share-ok:after {
+    content: 'Одноклассники';
+}
+.share-tw:after {
+    content: 'Twitter';
+}
+.share-vb:after {
+    content: 'Viber';
+}
+.share-wa:after {
+    content: 'WhatsApp';
+}
+
+@media (max-width: 575.98px) {
+    [class^=share-] {
+        display: block;
+        width: 100%;
+        height: 48px;
+        margin: 15px auto;
+        padding-top: 4px;
+        font-size: 21px;
+    }
+}
+@media (min-width: 576px) and (max-width: 767.98px) {
+    [class^=share-] {
+        display: inline-block;
+        width: 45%;
+        height: 48px;
+        margin: 10px;
+        padding-top: 4px;
+        font-size: 21px;
+    }
+    .sharefake {
+        display: block;
+        height: 0;
+    }
+}

@@ -1,0 +1,42 @@
+[class^=share-] {
+    display: inline-block;
+    width: 48px;
+    height: 48px;
+    color: #fff;
+    opacity: .8;
+    border: solid 1px #ccc;
+    border-radius: 50%;
+}
+[class^=share-]:hover {
+    cursor: pointer;
+    opacity: 1;
+}
+[class^=share-] svg {
+    width: 30px;
+    height: 30px;
+    margin: 8px;
+}
+.share-fb {
+    background: #3b5998;
+}
+.share-in {
+    background: #0e76a8;
+}
+.share-vk {
+    background: #4a76a8;
+}
+.share-tg {
+    background: #249bd7;
+}
+.share-ok {
+    background: #f93;
+}
+.share-tw {
+    background: #00acee;
+}
+.share-vb {
+    background: #7b519d;
+}
+.share-wa {
+    background: #50b154;
+}

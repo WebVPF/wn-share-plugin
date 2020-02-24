@@ -1,0 +1,42 @@
+[class^=share-] {
+    display: inline-block;
+    width: 48px;
+    height: 48px;
+    color: #828282;
+    border: solid 1px #828282;
+    border-radius: 50%;
+    transition: all .2s ease-out;
+}
+[class^=share-]:hover {
+    cursor: pointer;
+    color: #fff;
+}
+[class^=share-] svg {
+    width: 30px;
+    height: 30px;
+    margin: 8px;
+}
+.share-fb:hover {
+    background: #3b5998;
+}
+.share-in:hover {
+    background: #0e76a8;
+}
+.share-vk:hover {
+    background: #4a76a8;
+}
+.share-tg:hover {
+    background: #249bd7;
+}
+.share-ok:hover {
+    background: #f93;
+}
+.share-tw:hover {
+    background: #00acee;
+}
+.share-vb:hover {
+    background: #7b519d;
+}
+.share-wa:hover {
+    background: #50b154;
+}
