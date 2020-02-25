@@ -15,6 +15,8 @@
     width: 30px;
     height: 30px;
     margin: 8px;
+    overflow: hidden;
+    vertical-align: middle;
 }
 .share-fb {
     background: #3b5998;

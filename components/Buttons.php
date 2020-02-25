@@ -38,21 +38,21 @@ class Buttons extends ComponentBase
                 'title'       => 'webvpf.share::lang.buttons.fb.name',
                 'description' => 'webvpf.share::lang.buttons.fb.desc',
                 'type'        => 'checkbox',
-                'default'     => true,
+                'default'     => false,
                 'group'       => 'webvpf.share::lang.buttons.title'
             ],
             'tw' => [
                 'title'       => 'webvpf.share::lang.buttons.tw.name',
                 'description' => 'webvpf.share::lang.buttons.tw.desc',
                 'type'        => 'checkbox',
-                'default'     => true,
+                'default'     => false,
                 'group'       => 'webvpf.share::lang.buttons.title'
             ],
             'vk' => [
                 'title'       => 'webvpf.share::lang.buttons.vk.name',
                 'description' => 'webvpf.share::lang.buttons.vk.desc',
                 'type'        => 'checkbox',
-                'default'     => true,
+                'default'     => false,
                 'group'       => 'webvpf.share::lang.buttons.title'
             ],
             'ok' => [
@@ -73,7 +73,7 @@ class Buttons extends ComponentBase
                 'title'       => 'webvpf.share::lang.buttons.tg.name',
                 'description' => 'webvpf.share::lang.buttons.tg.desc',
                 'type'        => 'checkbox',
-                'default'     => true,
+                'default'     => false,
                 'group'       => 'webvpf.share::lang.buttons.title'
             ],
             'vb' => [

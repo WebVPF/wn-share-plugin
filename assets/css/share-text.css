@@ -22,6 +22,8 @@
     width: 21px;
     height: 21px;
     margin: 6px 0;
+    overflow: hidden;
+    vertical-align: middle;
 }
 .share-fb:hover {
     background: #3b5998;
