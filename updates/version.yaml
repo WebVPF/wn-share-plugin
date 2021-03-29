@@ -1,3 +1,4 @@
 1.0.1: First version of Share
 1.0.2: By default all buttons are disabled. Code Improvement
 1.0.3: Added charset in CSS file for style with text
+1.0.4: Removed xmlns attributes from svg icons
