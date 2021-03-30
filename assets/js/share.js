@@ -1,14 +1,14 @@
 document.addEventListener('DOMContentLoaded', () => {
     let social = {
-            fb: 'https://www.facebook.com/sharer.php?u=<URL>',
-            in: 'https://www.linkedin.com/shareArticle?mini=true&url=<URL>',
-            ok: 'https://connect.ok.ru/offer?url=<URL>',
-            tg: 'https://t.me/share/url?url=<URL>',
-            tw: 'https://twitter.com/share?url=<URL>',
-            vb: 'viber://forward?text=<URL>',
-            vk: 'https://vk.com/share.php?url=<URL>',
-            wa: 'https://wa.me/?text=<URL>'
-        }
+        fb: 'https://www.facebook.com/sharer.php?u=<URL>',
+        in: 'https://www.linkedin.com/shareArticle?mini=true&url=<URL>',
+        ok: 'https://connect.ok.ru/offer?url=<URL>',
+        tg: 'https://t.me/share/url?url=<URL>',
+        tw: 'https://twitter.com/share?url=<URL>',
+        vb: 'viber://forward?text=<URL>',
+        vk: 'https://vk.com/share.php?url=<URL>',
+        wa: 'https://wa.me/?text=<URL>'
+    }
 
     function share(id) {
         let left = (screen.width - 570) / 2 + (screen.availLeft | 0),

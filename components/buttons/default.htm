@@ -1,9 +1,7 @@
 <span class="sharefake"></span>
 
-{% for key in share|keys %}
-    {% if __SELF__.property(key) %}
-        <span class="share-{{ key }}" title="{{ ('webvpf.share::lang.buttons.' ~ key ~ '.name')|trans }}">
-            {% partial __SELF__ ~ '::' ~ key %}
-        </span>
-    {% endif %}
+{% for btnId in shareBtns %}
+    <span class="share-{{ btnId }}" title="{{ ('webvpf.share::lang.buttons.' ~ btnId )|trans }}">
+        {% partial __SELF__ ~ '::' ~ btnId %}
+    </span>
 {% endfor %}

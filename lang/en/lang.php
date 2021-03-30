@@ -19,41 +19,18 @@ return [
         'silver' => 'Silver',
         'color' => 'Color',
         'text' => 'With text',
-        'custom' => 'Custom'
+        'custom' => 'Custom',
     ],
     'buttons' => [
         'title' => 'Buttons',
-        'fb' => [
-            'name' => 'Facebook',
-            'desc' => 'Check box to enable Facebook button'
-        ],
-        'in' => [
-            'name' => 'LinkedIn',
-            'desc' => 'Check box to enable LinkedIn button'
-        ],
-        'vk' => [
-            'name' => 'VK',
-            'desc' => 'Check box to enable VK button'
-        ],
-        'tg' => [
-            'name' => 'Telegram',
-            'desc' => 'Check box to enable Telegram button'
-        ],
-        'ok' => [
-            'name' => 'Odnoklassniki',
-            'desc' => 'Check box to enable Odnoklassniki button'
-        ],
-        'tw' => [
-            'name' => 'Twitter',
-            'desc' => 'Check box to enable Twitter button'
-        ],
-        'vb' => [
-            'name' => 'Viber',
-            'desc' => 'Check box to enable Viber button'
-        ],
-        'wa' => [
-            'name' => 'WhatsApp',
-            'desc' => 'Check box to enable WhatsApp button'
-        ]
-    ]
+        'desc' => 'Specify the id of the buttons that you want to display, separated by commas (fb,tw,vk,ok,in,tg,vb,wa)',
+        'fb' => 'Facebook',
+        'in' => 'LinkedIn',
+        'vk' => 'VK',
+        'tg' => 'Telegram',
+        'ok' => 'Odnoklassniki',
+        'tw' => 'Twitter',
+        'vb' => 'Viber',
+        'wa' => 'WhatsApp',
+    ],
 ];

@@ -15,11 +15,17 @@ class Buttons extends ComponentBase
     public function defineProperties()
     {
         return [
+            'btns' => [
+                'title'       => 'webvpf.share::lang.btns.title',
+                'description' => 'webvpf.share::lang.btns.desc',
+                'type'        => 'string',
+                'default'     => 'fb, tw, vk, ok, in, tg, vb, wa',
+            ],
             'css' => [
                 'title'       => 'webvpf.share::lang.css.title',
                 'description' => 'webvpf.share::lang.css.desc',
                 'type'        => 'checkbox',
-                'default'     => true
+                'default'     => true,
             ],
             'skin' => [
                 'title'       => 'webvpf.share::lang.skin.title',
@@ -31,73 +37,25 @@ class Buttons extends ComponentBase
                     'silver'=> 'webvpf.share::lang.skin.silver',
                     'color' => 'webvpf.share::lang.skin.color',
                     'text'  => 'webvpf.share::lang.skin.text',
-                    'custom'=> 'webvpf.share::lang.skin.custom'
-                ]
+                    'custom'=> 'webvpf.share::lang.skin.custom',
+                ],
             ],
-            'fb' => [
-                'title'       => 'webvpf.share::lang.buttons.fb.name',
-                'description' => 'webvpf.share::lang.buttons.fb.desc',
-                'type'        => 'checkbox',
-                'default'     => false,
-                'group'       => 'webvpf.share::lang.buttons.title'
-            ],
-            'tw' => [
-                'title'       => 'webvpf.share::lang.buttons.tw.name',
-                'description' => 'webvpf.share::lang.buttons.tw.desc',
-                'type'        => 'checkbox',
-                'default'     => false,
-                'group'       => 'webvpf.share::lang.buttons.title'
-            ],
-            'vk' => [
-                'title'       => 'webvpf.share::lang.buttons.vk.name',
-                'description' => 'webvpf.share::lang.buttons.vk.desc',
-                'type'        => 'checkbox',
-                'default'     => false,
-                'group'       => 'webvpf.share::lang.buttons.title'
-            ],
-            'ok' => [
-                'title'       => 'webvpf.share::lang.buttons.ok.name',
-                'description' => 'webvpf.share::lang.buttons.ok.desc',
-                'type'        => 'checkbox',
-                'default'     => false,
-                'group'       => 'webvpf.share::lang.buttons.title'
-            ],
-            'in' => [
-                'title'       => 'webvpf.share::lang.buttons.in.name',
-                'description' => 'webvpf.share::lang.buttons.in.desc',
-                'type'        => 'checkbox',
-                'default'     => false,
-                'group'       => 'webvpf.share::lang.buttons.title'
-            ],
-            'tg' => [
-                'title'       => 'webvpf.share::lang.buttons.tg.name',
-                'description' => 'webvpf.share::lang.buttons.tg.desc',
-                'type'        => 'checkbox',
-                'default'     => false,
-                'group'       => 'webvpf.share::lang.buttons.title'
-            ],
-            'vb' => [
-                'title'       => 'webvpf.share::lang.buttons.vb.name',
-                'description' => 'webvpf.share::lang.buttons.vb.desc',
-                'type'        => 'checkbox',
-                'default'     => false,
-                'group'       => 'webvpf.share::lang.buttons.title'
-            ],
-            'wa' => [
-                'title'       => 'webvpf.share::lang.buttons.wa.name',
-                'description' => 'webvpf.share::lang.buttons.wa.desc',
-                'type'        => 'checkbox',
-                'default'     => false,
-                'group'       => 'webvpf.share::lang.buttons.title'
-            ]
         ];
     }
 
     public function onRun()
     {
-        $properties = $this->getProperties();
-        unset($properties['css'], $properties['skin']);
-        $this->page['share'] = $properties;
+        $str_btns = str_replace(' ', '', $this->property('btns') );
+        
+        $btns = explode(',', $str_btns);
+
+        foreach ($btns as $key => $value) {
+            if ( !in_array($value, ['fb', 'tw', 'vk', 'ok', 'in', 'tg', 'vb', 'wa']) ) {
+                unset($btns[$key]);
+            }
+        }
+
+        $this->page['shareBtns'] = $btns;
 
         if ( $this->property('css') ) {
             $this->addCss('/plugins/webvpf/share/assets/css/share-' . $this->property('skin') . '.css');

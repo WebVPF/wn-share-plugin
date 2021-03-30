@@ -19,7 +19,7 @@ Share Buttons - plugin for October CMS. Plugin component displays share buttons.
 - SVG icons are used for buttons, so there are no dependencies on icon fonts
 - no external links
 - there is no interaction with database
-- optimized javascript file (826 B)
+- optimized javascript file less than 1 Kb
 - without jQuery
 
 ## Button Style
@@ -45,16 +45,9 @@ If you work with code, you can insert buttons as follows:
 
 ```php
 [ShareButtons]
+btns = "fb, tw, in, tg, vb, wa"
 css = 1
 skin = "text"
-fb = 1
-tw = 1
-vk = 1
-ok = 1
-in = 1
-tg = 1
-vb = 1
-wa = 1
 ==
 {% component 'ShareButtons' %}
 ```
@@ -70,7 +63,7 @@ wa = 1
 - `vk` - VK
 - `wa` - WhatsApp
 
-### Values:
+### CSS:
 
 - 1 - enable
 - 0 - disable
@@ -113,8 +106,8 @@ set 0 for css:
 
 ```php
 [ShareButtons]
+btns = "fb, tw, in, tg, vb, wa"
 css = 0
-fb = 1
 ==
 {% component 'ShareButtons' %}
 ```
