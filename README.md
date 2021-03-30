@@ -22,6 +22,14 @@ Share Buttons - plugin for October CMS. Plugin component displays share buttons.
 - optimized javascript file less than 1 Kb
 - without jQuery
 
+## Selecting and Sorting Buttons
+
+Specify the id of the buttons that you want to display, separated by commas (fb,tw,vk,ok,in,tg,vb,wa)
+
+![Silver](https://user-images.githubusercontent.com/61043464/112979788-b89bb700-9161-11eb-8698-81be8763e919.jpg)
+
+In this case, you can specify the order in which the buttons will be displayed.
+
 ## Button Style
 
 Silver
@@ -30,11 +38,11 @@ Silver
 
 Color
 
-![Silver](https://user-images.githubusercontent.com/61043464/75198720-f7468d00-5769-11ea-9627-4d81da355d3b.jpg)
+![Color](https://user-images.githubusercontent.com/61043464/75198720-f7468d00-5769-11ea-9627-4d81da355d3b.jpg)
 
 With text
 
-![Silver](https://user-images.githubusercontent.com/61043464/75198725-fa417d80-5769-11ea-801f-beb789e474c5.jpg)
+![With text](https://user-images.githubusercontent.com/61043464/75198725-fa417d80-5769-11ea-801f-beb789e474c5.jpg)
 
 
 Simple settings are available in the component settings.
@@ -45,7 +53,7 @@ If you work with code, you can insert buttons as follows:
 
 ```php
 [ShareButtons]
-btns = "fb, tw, in, tg, vb, wa"
+btns = "fb, tw, vk, ok, in, tg, vb, wa"
 css = 1
 skin = "text"
 ==
