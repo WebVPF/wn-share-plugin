@@ -24,11 +24,28 @@ Share Buttons - plugin for October CMS. Plugin component displays share buttons.
 
 ## Selecting and Sorting Buttons
 
-Specify the id of the buttons that you want to display, separated by commas (fb,tw,vk,ok,in,tg,vb,wa)
+Specify the id of the buttons that you want to display, separated by commas (fb, tw, vk, ok, in, tg, vb, wa)
 
 ![Silver](https://user-images.githubusercontent.com/61043464/112979788-b89bb700-9161-11eb-8698-81be8763e919.jpg)
 
 In this case, you can specify the order in which the buttons will be displayed.
+
+You can do a similar layout:
+
+```html
+<div>Share: {% component 'ShareButtons' %}</div>
+```
+
+or
+
+```html
+<div class="container">
+    <h3>Share</h3>
+    <div>{% component 'ShareButtons' %}</div>
+</div>
+```
+
+---
 
 ## Button Style
 
@@ -46,6 +63,16 @@ With text
 
 
 Simple settings are available in the component settings.
+
+## Custom CSS
+
+Create file `share-custom.css` and place it in folder `plugins/webvpf/share/assets/css/`. In component settings, select **Custom** item for Button Style.
+
+### Disable css
+
+You can completely disable predefined css in component settings. Styles can be placed in css themes or wherever convenient for you.
+
+---
 
 ## Paste buttons
 
@@ -83,32 +110,7 @@ skin = "text"
 - `text`
 - `custom`
 
----
-
-You can do a similar layout:
-
-```html
-<div>Share: {% component 'ShareButtons' %}</div>
-```
-
-or
-
-```html
-<div class="container">
-    <h3>Share</h3>
-    <div>{% component 'ShareButtons' %}</div>
-</div>
-```
-
-## Custom CSS
-
-Create file `share-custom.css` and place it in folder `plugins/webvpf/share/assets/css/`. In component settings, select **Custom** item for Button Style.
-
-### Disable css
-
-You can completely disable predefined css in component settings. Styles can be placed in css themes or wherever convenient for you.
-
-#### Disable in code
+### Disable CSS in code
 
 set 0 for css:
 
