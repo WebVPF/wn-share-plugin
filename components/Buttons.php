@@ -16,8 +16,8 @@ class Buttons extends ComponentBase
     {
         return [
             'btns' => [
-                'title'       => 'webvpf.share::lang.btns.title',
-                'description' => 'webvpf.share::lang.btns.desc',
+                'title'       => 'webvpf.share::lang.buttons.title',
+                'description' => 'webvpf.share::lang.buttons.desc',
                 'type'        => 'string',
                 'default'     => 'fb, tw, vk, ok, in, tg, vb, wa',
             ],
