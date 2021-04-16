@@ -1,6 +1,6 @@
 # Share
 
-Share Buttons - plugin for October CMS. Plugin component displays share buttons.
+Share Buttons - plugin for Winter CMS. Plugin component displays share buttons.
 
 ### Social Networks and Messengers:
 
