@@ -22,6 +22,8 @@ composer require webvpf/share
 ### Features
 
 - easy setup
+- opens in a popup window or smartphone app
+- not blocked by adblockers
 - SVG icons are used for buttons, so there are no dependencies on icon fonts
 - no external links
 - there is no interaction with database
