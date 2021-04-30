@@ -2,6 +2,8 @@
 
 Share Buttons - plugin for Winter CMS. Plugin component displays share buttons.
 
+Инструкция на русском языке: https://github.com/WebVPF/wn-share/wiki
+
 Installation Сomposer:
 
 ```
@@ -117,15 +119,3 @@ skin = "text"
 - `color`
 - `text`
 - `custom`
-
-### Disable CSS in code
-
-set 0 for css:
-
-```php
-[ShareButtons]
-btns = "fb, tw, in, tg, vb, wa"
-css = 0
-==
-{% component 'ShareButtons' %}
-```
