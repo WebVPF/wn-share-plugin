@@ -1,9 +1,9 @@
 {
-    "name": "webvpf/share",
+    "name": "webvpf/wn-share-plugin",
     "type": "winter-plugin",
-    "description": "Share Buttons - plugin for Winter CMS. Plugin component displays share buttons.",
-    "homepage": "https://github.com/WebVPF/wn-share",
-    "keywords": ["winter", "wintercms", "wintercms-plugin", "share", "social"],
+    "description": "Share Buttons - plugin for Winter CMS. Displays share buttons.",
+    "homepage": "https://github.com/WebVPF/wn-share-plugin",
+    "keywords": ["winter cms", "wintercms", "wintercms-plugin", "share", "social"],
     "license": "MIT",
     "authors": [
         {
@@ -12,8 +12,8 @@
         }
     ],
     "support": {
-        "issues": "https://github.com/WebVPF/wn-share/issues",
-        "source": "https://github.com/WebVPF/wn-share"
+        "issues": "https://github.com/WebVPF/wn-share-plugin/issues",
+        "source": "https://github.com/WebVPF/wn-share-plugin"
     },
     "require": {
         "php": ">=7.2",
