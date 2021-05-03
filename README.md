@@ -7,7 +7,7 @@ Share Buttons - plugin for Winter CMS. Plugin component displays share buttons.
 Installation Сomposer:
 
 ```
-composer require webvpf/share
+composer require webvpf/wn-share-plugin
 ```
 
 ### Social Networks and Messengers:
