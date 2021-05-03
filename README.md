@@ -76,7 +76,7 @@ Simple settings are available in the component settings.
 
 ## Custom CSS
 
-Create file `share-custom.css` and place it in folder `plugins/webvpf/wn-share-plugin/assets/css/`. In component settings, select **Custom** item for Button Style.
+Create file `share-custom.css` and place it in folder `plugins/webvpf/share/assets/css/`. In component settings, select **Custom** item for Button Style.
 
 ### Disable css
 
