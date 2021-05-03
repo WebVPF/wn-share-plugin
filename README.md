@@ -2,7 +2,7 @@
 
 Share Buttons - plugin for Winter CMS. Plugin component displays share buttons.
 
-Инструкция на русском языке: https://github.com/WebVPF/wn-share/wiki
+Инструкция на русском языке: https://github.com/WebVPF/wn-share-plugin/wiki
 
 Installation Сomposer:
 
