@@ -58,9 +58,9 @@ class Buttons extends ComponentBase
         $this->page['shareBtns'] = $btns;
 
         if ( $this->property('css') ) {
-            $this->addCss('/plugins/webvpf/share/assets/css/share-' . $this->property('skin') . '.css');
+            $this->addCss('/plugins/webvpf/share/assets/css/share-' . $this->property('skin') . '.css', 'WebVPF.Share');
         }
 
-        $this->addJs('/plugins/webvpf/share/assets/js/share.min.js');
+        $this->addJs('/plugins/webvpf/share/assets/js/share.min.js', 'WebVPF.Share');
     }
 }
