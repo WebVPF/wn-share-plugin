@@ -34,7 +34,7 @@ composer require webvpf/wn-share-plugin
 - SVG icons are used for buttons, so there are no dependencies on icon fonts
 - no external links
 - there is no interaction with database
-- optimized javascript file less than 1 Kb
+- optimized [javascript file](https://github.com/WebVPF/wn-share-plugin/blob/master/assets/js/share.min.js "open file") less than 1 Kb
 - without jQuery
 
 ## Selecting and Sorting Buttons
