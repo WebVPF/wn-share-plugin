@@ -1,4 +1,9 @@
+![Plugin version](https://img.shields.io/github/v/tag/WebVPF/wn-share-plugin?label=Version&logo=semver)
+![Total installations](https://img.shields.io/packagist/dt/webvpf/wn-share-plugin?color=%23f28d1a&label=Installations&logo=Packagist&logoColor=%23f28d1a)
+
 # Share
+
+![plugin cover](https://repository-images.githubusercontent.com/242692501/3e44dc80-a1cd-11eb-83c4-e27c6ef0dc22)
 
 Share Buttons - plugin for Winter CMS. Plugin component displays share buttons.
 
@@ -94,7 +99,7 @@ btns = "fb, tw, vk, ok, in, tg, vb, wa"
 css = 1
 skin = "text"
 ==
-{% component 'ShareButtons' %}
+<div>Share: {% component 'ShareButtons' %}</div>
 ```
 
 ### Buttons:
