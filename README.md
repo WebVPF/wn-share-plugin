@@ -90,7 +90,7 @@ You can completely disable predefined css in component settings. Styles can be p
 
 If you work with code, you can insert buttons as follows:
 
-```twig
+```ini
 [ShareButtons]
 btns = "fb, tw, vk, ok, in, tg, vb, wa"
 css = 1
