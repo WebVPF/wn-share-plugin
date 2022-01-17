@@ -1,6 +1,3 @@
-![Plugin version](https://img.shields.io/github/v/tag/WebVPF/wn-share-plugin?label=Version&logo=semver)
-![Total installations](https://img.shields.io/packagist/dt/webvpf/wn-share-plugin?color=%23f28d1a&label=Installations&logo=Packagist&logoColor=%23f28d1a)
-
 # Share
 
 ![plugin cover](https://repository-images.githubusercontent.com/242692501/3e44dc80-a1cd-11eb-83c4-e27c6ef0dc22)
@@ -11,7 +8,7 @@ Share Buttons - plugin for Winter CMS. Plugin component displays share buttons.
 
 Installation Сomposer:
 
-```
+```bash
 composer require webvpf/wn-share-plugin
 ```
 
@@ -47,13 +44,13 @@ In this case, you can specify the order in which the buttons will be displayed.
 
 You can do a similar layout:
 
-```html
+```twig
 <div>Share: {% component 'ShareButtons' %}</div>
 ```
 
 or
 
-```html
+```twig
 <div class="container">
     <h3>Share</h3>
     <div>{% component 'ShareButtons' %}</div>
@@ -93,7 +90,7 @@ You can completely disable predefined css in component settings. Styles can be p
 
 If you work with code, you can insert buttons as follows:
 
-```php
+```twig
 [ShareButtons]
 btns = "fb, tw, vk, ok, in, tg, vb, wa"
 css = 1
