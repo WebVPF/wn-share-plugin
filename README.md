@@ -12,7 +12,7 @@ Installation Сomposer:
 composer require webvpf/wn-share-plugin
 ```
 
-### Social Networks and Messengers:
+Social Networks and Messengers:
 
 - Facebook
 - Twitter
@@ -23,7 +23,7 @@ composer require webvpf/wn-share-plugin
 - Viber
 - WhatsApp
 
-### Features
+Features:
 
 - easy setup
 - opens in a popup window or smartphone app
@@ -38,7 +38,7 @@ composer require webvpf/wn-share-plugin
 
 Specify the id of the buttons that you want to display, separated by commas (fb, tw, vk, ok, in, tg, vb, wa)
 
-![Silver](https://user-images.githubusercontent.com/61043464/112979788-b89bb700-9161-11eb-8698-81be8763e919.jpg)
+![Component Share Buttons](https://user-images.githubusercontent.com/61043464/112979788-b89bb700-9161-11eb-8698-81be8763e919.jpg)
 
 In this case, you can specify the order in which the buttons will be displayed.
 
@@ -73,14 +73,9 @@ With text
 
 ![With text](https://user-images.githubusercontent.com/61043464/75198725-fa417d80-5769-11ea-801f-beb789e474c5.jpg)
 
-
 Simple settings are available in the component settings.
 
-## Custom CSS
-
-Create file `share-custom.css` and place it in folder `plugins/webvpf/share/assets/css/`. In component settings, select **Custom** item for Button Style.
-
-### Disable css
+## Disable css
 
 You can completely disable predefined css in component settings. Styles can be placed in css themes or wherever convenient for you.
 
@@ -120,4 +115,3 @@ skin = "text"
 - `silver`
 - `color`
 - `text`
-- `custom`
