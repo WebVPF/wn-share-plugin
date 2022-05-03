@@ -1,4 +1,6 @@
-<?php namespace WebVPF\Share;
+<?php
+
+namespace WebVPF\Share;
 
 use System\Classes\PluginBase;
 

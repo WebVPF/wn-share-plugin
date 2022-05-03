@@ -18,6 +18,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
         window.open(link, 'share', params);
     }
-    
+
     document.querySelectorAll('[class^=share-]').forEach(el => el.addEventListener('click', () => share( el.className.split('-')[1] )));
 });

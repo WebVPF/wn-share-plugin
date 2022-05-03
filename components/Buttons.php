@@ -1,4 +1,6 @@
-<?php namespace WebVPF\Share\Components;
+<?php
+
+namespace WebVPF\Share\Components;
 
 use Cms\Classes\ComponentBase;
 
