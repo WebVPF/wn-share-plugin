@@ -16,6 +16,7 @@ return [
     'skin' => [
         'title' => 'Button Style',
         'desc' => 'Choose a buttons style. Only works if css is enabled',
+        'placeholder' => 'Button Style',
         'silver' => 'Silver',
         'color' => 'Color',
         'text' => 'With text',

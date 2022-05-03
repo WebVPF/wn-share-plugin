@@ -34,7 +34,7 @@ class Buttons extends ComponentBase
                 'description' => 'webvpf.share::lang.skin.desc',
                 'type'        => 'dropdown',
                 'default'     => 'silver',
-                'placeholder' => 'Стиль кнопок',
+                'placeholder' => 'webvpf.share::lang.skin.desc',
                 'options'     => [
                     'silver'=> 'webvpf.share::lang.skin.silver',
                     'color' => 'webvpf.share::lang.skin.color',
@@ -48,7 +48,7 @@ class Buttons extends ComponentBase
     public function onRun()
     {
         $str_btns = str_replace(' ', '', $this->property('btns') );
-        
+
         $btns = explode(',', $str_btns);
 
         foreach ($btns as $key => $value) {
