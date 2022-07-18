@@ -115,3 +115,54 @@ skin = "text"
 - `silver`
 - `color`
 - `text`
+
+## Function `share`
+
+You can call the `share()` function from within your scripts.
+
+```js
+share(id, paramsUrl);
+```
+
+Parameter   | Type   | Required | Description
+------------|--------|----------|------------
+`id`        | string | Yes      | Social network ID (fb, tw, vk, ok, in, tg, vb, wa)
+`paramsUrl` | object | No       | Can have `search` and `hash` options.
+
+### Examples
+
+The following example will send a page link to the Telegram messenger.
+
+```js
+share('tg');
+
+// https://example.com/slug
+```
+
+#### `search` parameter
+
+Part of the address after `?`
+
+```js
+share('wa', {search: 'a=2&b=3'});
+
+// https://example.com/slug?a=2&b=3
+```
+
+#### `hash` parameter
+
+The part of the URL that comes after the pound sign '#'
+
+```js
+share('wa', {hash: 'anchor'});
+
+// https://example.com/slug#anchor
+```
+
+#### `search` and `hash` parameters
+
+```js
+share('wa', {search: 'a=2&b=3', hash: 'anchor'});
+
+// https://example.com/slug?a=2&b=3#anchor
+```
