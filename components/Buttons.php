@@ -6,15 +6,15 @@ use Cms\Classes\ComponentBase;
 
 class Buttons extends ComponentBase
 {
-    public function componentDetails()
+    public function componentDetails(): array
     {
         return [
             'name'        => 'webvpf.share::lang.component.name',
-            'description' => 'webvpf.share::lang.component.description'
+            'description' => 'webvpf.share::lang.component.description',
         ];
     }
 
-    public function defineProperties()
+    public function defineProperties(): array
     {
         return [
             'btns' => [
@@ -47,7 +47,7 @@ class Buttons extends ComponentBase
 
     public function onRun()
     {
-        $str_btns = str_replace(' ', '', $this->property('btns') );
+        $str_btns = str_replace(' ', '', $this->property('btns'));
 
         $btns = explode(',', $str_btns);
 
@@ -59,7 +59,7 @@ class Buttons extends ComponentBase
 
         $this->page['shareBtns'] = $btns;
 
-        if ( $this->property('css') ) {
+        if ($this->property('css')) {
             $this->addCss('/plugins/webvpf/share/assets/css/share-' . $this->property('skin') . '.css', 'WebVPF.Share');
         }
 
