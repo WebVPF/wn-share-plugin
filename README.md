@@ -1,7 +1,5 @@
 # Share
 
-![plugin cover](https://repository-images.githubusercontent.com/242692501/3e44dc80-a1cd-11eb-83c4-e27c6ef0dc22)
-
 Share Buttons - plugin for Winter CMS. Plugin component displays share buttons.
 
 Инструкция на русском языке: https://github.com/WebVPF/wn-share-plugin/wiki
