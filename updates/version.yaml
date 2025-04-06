@@ -10,3 +10,4 @@
 1.1.6: Сode improvement. Add Ukrainian language
 1.2.1: Added parameters to the link. Сode improvement.
 1.2.2: Add french lang.
+1.2.3: Minifying CSS and JS with Combine. Hides the path to the plugin original assets files.
