@@ -14,8 +14,5 @@
     "support": {
         "issues": "https://github.com/WebVPF/wn-share-plugin/issues",
         "source": "https://github.com/WebVPF/wn-share-plugin"
-    },
-    "require": {
-        "composer/installers": "~1.0"
     }
 }
