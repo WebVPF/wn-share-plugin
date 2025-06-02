@@ -15,7 +15,7 @@ const socialUrl = {
  * @param {string} id Social network ID (fb, tw, vk, ok, in, tg, vb, wa)
  * @param {object} paramUrl Optional parameter. Search and hash key values add parameters to the link.
  */
-function share(id, paramUrl) {
+function share(id, paramUrl = {}) {
     let pageUrl = document.URL;
 
     if (paramUrl && typeof paramUrl == 'object') {
