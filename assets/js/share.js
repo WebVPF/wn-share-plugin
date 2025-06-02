@@ -18,7 +18,7 @@ const socialUrl = {
 function share(id, paramUrl = {}) {
     let pageUrl = document.URL;
 
-    if (paramUrl && typeof paramUrl == 'object') {
+    if (typeof paramUrl == 'object') {
         if (paramUrl.search) pageUrl += '?' + paramUrl.search;
         if (paramUrl.hash) pageUrl += '#' + paramUrl.hash;
     }
