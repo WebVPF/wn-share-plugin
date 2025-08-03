@@ -24,7 +24,7 @@ return [
     ],
     'buttons' => [
         'title' => 'Buttons',
-        'desc' => 'Specify the id of the buttons that you want to display, separated by commas (fb,tw,vk,ok,in,tg,vb,wa)',
+        'desc' => 'Specify the id of the buttons that you want to display, separated by commas (fb,tw,vk,ok,in,tg,vb,wa,x)',
         'fb' => 'Facebook',
         'in' => 'LinkedIn',
         'vk' => 'VK',
@@ -33,5 +33,6 @@ return [
         'tw' => 'Twitter',
         'vb' => 'Viber',
         'wa' => 'WhatsApp',
+        'x' => 'X',
     ],
 ];

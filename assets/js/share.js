@@ -6,7 +6,8 @@ const socialUrl = {
     tw: 'https://twitter.com/share?url=<URL>',
     vb: 'viber://forward?text=<URL>',
     vk: 'https://vk.com/share.php?url=<URL>',
-    wa: 'https://wa.me/?text=<URL>'
+    wa: 'https://wa.me/?text=<URL>',
+    x: 'https://x.com/intent/post?url=<URL>'
 }
 
 /**
@@ -16,7 +17,7 @@ const socialUrl = {
  * @param {object} paramUrl Optional parameter. Search and hash key values add parameters to the link.
  */
 function share(id, paramUrl = {}) {
-    let pageUrl = document.URL;
+    const pageUrl = document.URL;
 
     if (typeof paramUrl == 'object') {
         if (paramUrl.search) pageUrl += '?' + paramUrl.search;

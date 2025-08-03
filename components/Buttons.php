@@ -21,7 +21,7 @@ class Buttons extends ComponentBase
                 'title'       => 'webvpf.share::lang.buttons.title',
                 'description' => 'webvpf.share::lang.buttons.desc',
                 'type'        => 'string',
-                'default'     => 'fb, tw, vk, ok, in, tg, vb, wa',
+                'default'     => 'fb, tw, vk, ok, in, tg, vb, wa, x',
             ],
             'css' => [
                 'title'       => 'webvpf.share::lang.css.title',
@@ -52,7 +52,7 @@ class Buttons extends ComponentBase
         $btns = explode(',', $str_btns);
 
         foreach ($btns as $key => $value) {
-            if ( !in_array($value, ['fb', 'tw', 'vk', 'ok', 'in', 'tg', 'vb', 'wa']) ) {
+            if ( !in_array($value, ['fb', 'tw', 'vk', 'ok', 'in', 'tg', 'vb', 'wa', 'x']) ) {
                 unset($btns[$key]);
             }
         }

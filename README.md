@@ -20,6 +20,7 @@ Social Networks and Messengers:
 - Telegram
 - Viber
 - WhatsApp
+- X
 
 Features:
 
@@ -34,7 +35,7 @@ Features:
 
 ## Selecting and Sorting Buttons
 
-Specify the id of the buttons that you want to display, separated by commas (fb, tw, vk, ok, in, tg, vb, wa)
+Specify the id of the buttons that you want to display, separated by commas (fb, tw, vk, ok, in, tg, vb, wa, x)
 
 ![Component Share Buttons](https://user-images.githubusercontent.com/61043464/112979788-b89bb700-9161-11eb-8698-81be8763e919.jpg)
 
@@ -85,7 +86,7 @@ If you work with code, you can insert buttons as follows:
 
 ```ini
 [ShareButtons]
-btns = "fb, tw, vk, ok, in, tg, vb, wa"
+btns = "fb, tw, vk, ok, in, tg, vb, wa, x"
 css = 1
 skin = "text"
 ==
@@ -102,6 +103,7 @@ skin = "text"
 - `vb` - Viber
 - `vk` - VK
 - `wa` - WhatsApp
+- `x` - X
 
 ### CSS:
 
@@ -124,7 +126,7 @@ share(id, paramsUrl);
 
 Parameter   | Type   | Required | Description
 ------------|--------|----------|------------
-`id`        | string | Yes      | Social network ID (fb, tw, vk, ok, in, tg, vb, wa)
+`id`        | string | Yes      | Social network ID (fb, tw, vk, ok, in, tg, vb, wa, x)
 `paramsUrl` | object | No       | Can have `search` and `hash` options.
 
 ### Examples

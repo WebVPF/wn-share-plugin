@@ -24,7 +24,7 @@ return [
     ],
     'buttons' => [
         'title' => 'Кнопки',
-        'desc' => 'Укажите через запятую id кнопок которые нужно вывести (fb,tw,vk,ok,in,tg,vb,wa)',
+        'desc' => 'Укажите через запятую id кнопок которые нужно вывести (fb,tw,vk,ok,in,tg,vb,wa,x)',
         'fb' => 'Фейсбук',
         'in' => 'LinkedIn',
         'vk' => 'VK',
@@ -33,5 +33,6 @@ return [
         'tw' => 'Твиттер',
         'vb' => 'Viber',
         'wa' => 'WhatsApp',
+        'x' => 'X',
     ],
 ];

@@ -50,6 +50,9 @@
 .share-wa:hover {
     background: #50b154;
 }
+.share-x:hover {
+    background: #000;
+}
 
 [class^=share-]:after {
     margin-left: 0px;
@@ -77,6 +80,9 @@
 }
 .share-wa:after {
     content: 'WhatsApp';
+}
+.share-x:after {
+    content: 'X';
 }
 
 @media (max-width: 575.98px) {

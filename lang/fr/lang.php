@@ -24,7 +24,7 @@ return [
     ],
     'buttons' => [
         'title' => 'Boutons',
-        'desc' => 'Spécifiez l\'identifiant des boutons que vous souhaitez afficher, séparés par des virgules (fb,tw,vk,ok,in,tg,vb,wa).',
+        'desc' => 'Spécifiez l\'identifiant des boutons que vous souhaitez afficher, séparés par des virgules (fb,tw,vk,ok,in,tg,vb,wa,x).',
         'fb' => 'Facebook',
         'in' => 'LinkedIn',
         'vk' => 'VK',
@@ -33,5 +33,6 @@ return [
         'tw' => 'Twitter',
         'vb' => 'Viber',
         'wa' => 'WhatsApp',
+        'x' => 'X',
     ],
 ];
